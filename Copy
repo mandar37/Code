@@ -1,0 +1,15 @@
+#
+# DVD Copy shell script
+#
+clear
+echo "Knowledge is Power"
+eject -t cdrom
+sleep 30
+#path="4850e16c-8741-4eb8-9467-9119d20c3ab8/mandar_videos/program/WINTER\ SCHOOL\ ON\ STOCHASTIC\ ANALYSIS\ AND\ CONTROL\ OF\ FLUID\ FLOW\ /"
+#folder=""
+#cd /etc/media
+#rsync -avzt --progress /media/My\ Disc/ /media/4850e16c-8741-4eb8-9467-9119d20c3ab8/mandar_videos/program/US-India/DVD$1/
+rsync -avzt --progress /media/cdrom/ /home2/mandar/discussion_meetings/THE\ INFORMATION\ PARADOX\,\ ENTANGLEMENT\ AND\ BLACK\ HOLES\ /DVD$1/
+echo "DVD Compleated copy"
+eject cdrom
+exit 0
