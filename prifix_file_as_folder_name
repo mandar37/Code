@@ -6,16 +6,11 @@
 for k in `ls -rtd */`
 do
 cd $k
-for j in `ls -rtd */`
-do
-cd $j
 for i in `ls -rt`
 do
 mv $i ${k%?}$i
 #echo $i
 #echo ${k%?}$i
-done
-cd ..
 done
 cd ..
 done
