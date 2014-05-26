@@ -3,14 +3,14 @@
 # First test this script in /tmp folder 
 #
 
-for k in `ls -rtd */`
+for parantfolder in `ls -rtd */`
 do
-cd $k
-for i in `ls -rt`
+cd $parantfolder
+for filename in `ls -rt`
 do
-mv $i ${k%?}$i
-#echo $i
-#echo ${k%?}$i
+mv $filename ${parantfolder%?}$filename
+#echo $filename
+#echo ${parantfolder%?}$filename
 done
 cd ..
 done
