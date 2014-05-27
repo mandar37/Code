@@ -4,3 +4,26 @@
 <FONT SIZE="+1" COLOR="yellow">Mandar Joshi</FONT></TD>
 </TR>
 </TABLE>
+
+
+Here's What's Happening Within the HTML
+ 
+
+I got the effect using a single table cell, adding a background, and then some text. Like so:
+
+1.<TABLE BORDER="0" cellpadding="0" CELLSPACING="0"> This is the format for the cell. You need to set everything to zero so that the cell borders lay right against the image. That way you have better control over the text in relation to the image.
+
+     
+2.<TR> This starts the table row. It's not really needed but it's good table format.
+
+   
+3.<TD WIDTH="221" HEIGHT="300" BACKGROUND="newjoe01.jpg" VALIGN="bottom"> This is what does the trick. I set the image you see above as the background of the image cell. Please note that I added the height and width of the image. YOU NEED TO DO THAT. If you don't, then the cell will only conform to the size of the text you put after the TD command. In other words, you won't see the entire picture.
+
+     
+4.<FONT SIZE="+1" COLOR="yellow">Joe Burns at Work</FONT></TD> This is the text that will appear on the image. I used a FONT size and color command to get the text to show up a little better.
+
+     
+5.</TR> Just good table creation again.
+
+     
+6.</TABLE> That ends the whole deal.
