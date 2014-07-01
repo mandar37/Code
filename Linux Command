@@ -1,0 +1,2 @@
+pdftoppm  -  Portable  Document  Format  (PDF) to Portable Pixmap (PPM)
+pdftoppm -png file.pdf imagename 
