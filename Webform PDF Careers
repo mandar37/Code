@@ -1,0 +1,144 @@
+%title
+<table>
+<tbody>
+<tr>
+<td width="50">1.</td><td>Adv. Number :</td><td width="55%">ICTS/1</td><td rowspan="14">%value[personal_information][upload_photo]</td>
+</tr>
+<tr>
+<td width="50">2.</td><td>Post Serial No. :</td><td width="55%">SOC/1</td>
+</tr>
+<tr>
+<td width="50">3.</td><td>Name </td><td width="55%">%value[personal_information][full_name]</td>
+</tr>
+<tr>
+<td width="50">4.</td><td>Date of Birth :</td><td width="55%">%value[personal_information][date_of_birth]</td>
+</tr>
+<tr>
+<td width="50">5.</td><td>Nationality :</td><td width="55%">%value[personal_information][nationality]</td>
+</tr>
+<tr>
+<td width="50">6.</td><td>Whether belonging to SC/ST/OBC/ Ex.Servicemen :</td><td width="55%">%value[personal_information][caste]<br />
+%value[personal_information][please_select_the_appropriate_category]</td>
+</tr>
+<tr>
+<td width="50">8.</td><td>Address for Correspondence :</td><td width="55%">%value[personal_information][3_address]</td>
+</tr>
+<tr>
+<td width="50">9.</td><td>Permanent Address :</td><td width="55%">%value[personal_information][permanent_address]</td>
+</tr>
+<tr>
+<td width="50">8.</td><td>Mobile No :</td><td width="55%">%value[personal_information][mobile_91]</td>
+</tr>
+<tr>
+<td width="50">9.</td><td>Telephone No :</td><td width="55%">%value[personal_information][telephone_no]</td>
+</tr>
+<tr>
+<td width="80">10.</td><td>Email Address :</td><td width="55%">%value[personal_information][email_address]</td>
+</tr>
+</tbody>
+</table>
+<p>11. Educational Details:</p>
+<table border="1">
+<thead>
+<tr>
+<th scope="col">Degree/Exam</th><th scope="col">Univ./ Board</th><th scope="col">Univ./ Board</th><th scope="col">Class</th><th scope="col">Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="center" align="center">%value[educational_details][ssc_row][degree_exam_1]</td>
+<td valign="center" align="center">%value[educational_details][ssc_row][board_university_1]</td>
+<td valign="center" align="center">%value[educational_details][ssc_row][year_1]</td>
+<td valign="center" align="center">%value[educational_details][ssc_row][class_1]</td>
+<td valign="center" align="center">%value[educational_details][ssc_row][percentage_1]</td>
+</tr>
+<tr>
+<td valign="center" align="center">%value[educational_details][hsc_row][degree_exam_1]</td>
+<td valign="center" align="center">%value[educational_details][hsc_row][board_university_1]</td>
+<td valign="center" align="center">%value[educational_details][hsc_row][year_1]</td>
+<td valign="center" align="center">%value[educational_details][hsc_row][class_1]</td>
+<td valign="center" align="center">%value[educational_details][hsc_row][percentage_1]</td>
+</tr>
+<tr>
+<td valign="center" align="center">%value[educational_details][BSC_row][degree_exam_1]</td>
+<td valign="center" align="center">%value[educational_details][BSC_row][board_university_1]</td>
+<td valign="center" align="center">%value[educational_details][BSC_row][year_1]</td>
+<td valign="center" align="center">%value[educational_details][BSC_row][class_1]</td>
+<td valign="center" align="center">%value[educational_details][BSC_row][percentage_1]</td>
+</tr>
+<tr>
+<td valign="center" align="center">%value[educational_details][Other_row_1][degree_exam_1]</td>
+<td valign="center" align="center">%value[educational_details][Other_row_1][board_university_1]</td>
+<td valign="center" align="center">%value[educational_details][Other_row_1][year_1]</td>
+<td valign="center" align="center">%value[educational_details][Other_row_1][class_1]</td>
+<td valign="center" align="center">%value[educational_details][Other_row_1][percentage_1]</td>
+</tr>
+<tr>
+<td valign="center" align="center">%value[educational_details][Other_row_2][degree_exam_1]</td>
+<td valign="center" align="center">%value[educational_details][Other_row_2][board_university_1]</td>
+<td valign="center" align="center">%value[educational_details][Other_row_2][year_1]</td>
+<td valign="center" align="center">%value[educational_details][Other_row_2][class_1]</td>
+<td valign="center" align="center">%value[educational_details][Other_row_2][percentage_1]</td>
+</tr>
+</tbody>
+</table>
+<p>12. Experience Information</p>
+<table border="1">
+<tbody>
+<tr>
+<th><strong>Organization</strong></th>
+<th><strong>Post Held </strong></th>
+<th><strong>Scale of Pay </strong></th>
+<th><strong>Basic Pay </strong></th>
+<th><strong>Duration </strong></th>
+</tr>
+<tr>
+<td>%value[experience_information][experence_info_1][organization_1]</td>
+<td>%value[experience_information][experence_info_1][post_held_1]</td>
+<td>%value[experience_information][experence_info_1][scale_of_pay_1]</td>
+<td>%value[experience_information][experence_info_1][basic_pay_1]</td>
+<td>%value[experience_information][experence_info_1][duration_1]</td>
+</tr>
+<tr>
+<td>%value[experience_information][experence_info_2][organization_2]</td>
+<td>%value[experience_information][experence_info_2][post_held_2]</td>
+<td>%value[experience_information][experence_info_2][scale_of_pay_2]</td>
+<td>%value[experience_information][experence_info_2][basic_pay_2]</td>
+<td>%value[experience_information][experence_info_2][duration_2]</td>
+</tr>
+<tr>
+<td>%value[experience_information][experence_info_3][organization_3]</td>
+<td>%value[experience_information][experence_info_3][post_held_3]</td>
+<td>%value[experience_information][experence_info_3][scale_of_pay_3]</td>
+<td>%value[experience_information][experence_info_3][basic_pay_3]</td>
+<td>%value[experience_information][experence_info_3][duration_3]</td>
+</tr>
+<tr>
+<td>%value[experience_information][experence_info_4][organization_4]</td>
+<td>%value[experience_information][experence_info_4][post_held_4]</td>
+<td>%value[experience_information][experence_info_4][scale_of_pay_4]</td>
+<td>%value[experience_information][experence_info_4][basic_pay_4]</td>
+<td>%value[experience_information][experence_info_4][duration_4]</td></tr>
+</tbody>
+</table>
+%pagebreak
+<table>
+<tr><td width="80">13.</td><td>a) Reference 1</td><td> </td></tr>
+<tr><td width="50"></td><td>i) Name :</td><td <td width="70%">%value[reference_information][reference_1][reference_name_1] </td></tr>
+<tr><td width="50"></td><td>ii) Address :</td><td>%value[reference_information][reference_1][reference_address_1] </td></tr>
+<tr><td width="50"></td><td>iii) Telephone No :</td><td>%value[reference_information][reference_1][reference_tele_1]</td></tr>
+<tr><td width="50"></td><td>iii) Fax No : </td><td>%value[reference_information][reference_1][reference_Fax_1]</td></tr>
+<tr><td width="50"></td><td>iii) Email :%value[reference_information][reference_1][reference_email__1]</td></tr>
+<tr><td></td></tr>
+<tr><td width="50"></td><td>b)Reference 2 </td><td> </td></tr>
+<tr><td width="50"></td><td>i) Name :</td><td>%value[reference_information][reference_2][reference_name_2]</td></tr>
+<tr><td width="50"></td><td>ii) Address :</td><td>%value[reference_information][reference_2][reference_address_2] </td></tr>
+<tr><td width="50"></td><td>iii) Telephone No :</td><td>%value[reference_information][reference_2][reference_tele_2] </td></tr>
+<tr><td width="50"></td><td>iii) Fax No : </td><td>%value[reference_information][reference_2][reference_Fax_2] </td></tr>
+<tr><td width="50"></td><td>iii) Email :</td><td>%value[reference_information][reference_2][reference_email__2]</td></tr>
+<tr><td></td></tr>
+</table>
+<table>
+<tr><td width="110">14.</td><td width="90%">Any additional academic information about yourself that has not been covered above:</td></tr>
+<tr><td width="50"></td><td>%value[other_information][additional_information] </td></tr>
+</table>
