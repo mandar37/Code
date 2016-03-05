@@ -1,0 +1,13 @@
+//backup Database from Mysql server
+
+  1. Login to server 
+     ssh root@10.x.x.x
+     
+  2. Dump database file to Backup location    
+    mysqldump --force --opt --user=XXXXXXX --password=XXXXXXX --databases dsource_drupal > /var/www/html/dsource/Database/dsource_drupal_$(date +%Y-%m-%d).sql
+  
+//Restore database to Mysql server
+     mysql -u XXXUsernameXXX -p  dsource_drupal < /var/www/html/pdf/dsource_drupal_2015-09-10f.sql
+     
+//Backup Source code and images to External HDD
+    rsync -avzt --progress XXXUsernameXXX@10.x.x.x:/var/www/html/dsource/ /media/Ekalpa-CMS/dsourceIDC_$(date +%Y-%m-%d)/
